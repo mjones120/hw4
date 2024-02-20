@@ -1,13 +1,13 @@
 //1. What is javascript? How does an interpreted programming language differ from a compiled language?
 //Javascript is a programming language used by web developers to add dynamic interactions to their projects. It is interpreted through script which is different from a complied language since they do not.
 //2. What is the difference between var, let, and const when declaring variables?
-//var is a container for storing data but only if using an old browser
-//let is used as a keyword when the value could be changed at a later time since it is not a const
-//const is used as a keyword when the value stored will not be changed
+//var is a container for storing data but only if using an old browser. This is global and function-scoped. Additionally, this is redeclarable.
+//let is used as a keyword when the value could be changed at a later time since it is not a const. This is block scoped and redeclarable.
+//const is used as a keyword when the value stored will not be changed. This is block scoped which is not declarable.
 //3. What are anonymous functions? Higher order functions?
-//Anonynmous functions occur when an event happens to a certain element and a function is triggered. Higher order functions take in functions as parameters or returns a function
+//Anonymous functions occur when an event happens to a certain element and a function is triggered. These functions are functions without names Higher order functions take in functions as parameters or returns a function
 //4. Define objects in JavaScript and how they are different from objects in more traditional OOP languages.
-//objects are each individual things that have their own properties, events,and methods. All of these attributes work together to create a working model of the object. These objects are different than in other OOP programming lanuages because objects inherit objects rather than classes inheriting classes.
+//objects are each individual things that have their own properties, events, and methods. All of these attributes work together to create a working model of the object. These objects are different from other OOP programming languages because objects inherit objects rather than classes inheriting classes. Javascript additionally does not use classes which is why object inheritance is used.
 const cats = [
     {
         name: 'Charlie',
